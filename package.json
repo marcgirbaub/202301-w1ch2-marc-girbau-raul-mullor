@@ -1,10 +1,26 @@
 {
+  "name": "challenge2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "rimraf dist",
     "prebuild:dev": "rimraf dist",
     "build": "parcel build src/index.html",
     "build:dev": "parcel src/index.html"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcgirbaub/202301-w1ch2-marc-girbau-raul-mullor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcgirbaub/202301-w1ch2-marc-girbau-raul-mullor/issues"
+  },
+  "homepage": "https://github.com/marcgirbaub/202301-w1ch2-marc-girbau-raul-mullor#readme",
   "devDependencies": {
     "parcel": "^2.8.2",
     "rimraf": "^3.0.2"
