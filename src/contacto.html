@@ -20,34 +20,23 @@
       </ul>
     </nav>
   </header>
-  <section>
-    <h2>
-      Nombre y apellidos:
-      <ul>
-        Raul Mullor</ul>
-    </h2>
-  </section>
-  <section>
-    <h2>
-      Gmail:
-      <ul>
-        mullor92@gmail.com</ul>
-    </h2>
-  </section>
-  <section>
-    <h2>
-      Telefono:
-      <ul>
-        +34 696696696</ul>
-    </h2>
-  </section>
-  <section>
-    <h2>
-      Comentarios:
-      <ul>
-        carreame Marc sisplau estic pescand truches molt fort noi</ul>
-    </h2>
-  </section>
+  <main>
+    <h2>Contacta con nosotros</h2>
+    <section>
+      <strong>Rellena los siguientes campos para contactar</strong>
+      <form action="/action_page.php">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" name="nombre"><br>
+        <label for="telefono">Telefono:</label><br>
+        <input type="text" name="telefono"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" required><br><br>
+        <label type="text" name="comentarios">Comentarios</label><br>
+        <textarea type="text" name="comentarios" value="Comentarios"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
 </body>
 
 </html>
